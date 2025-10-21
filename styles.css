@@ -18,7 +18,7 @@ h2 {
 p {
   font-size: 16px; /* Sets the font size to 16 pixels */
   line-height: 1.5;/* Adds spacing between lines of text */
-  text-align: center;
+  text-align: left;
 }
 
 /* This rule targets the <div> element with the class "card" */
@@ -28,14 +28,16 @@ p {
   margin: 15px; /* Adds space outside the card */
   border-radius: 8px; /* Rounds the corners of the card */
 }
-
 .container {
-  max-width: 800px;      /* limits how wide your text can get */
-  margin: 0 auto;        /* centers the container horizontally */
-  padding: 20px;         /* adds space inside the edges */
-  line-height: 1.6;      /* makes text easier to read */
-  font-family: Arial, sans-serif; /* clean, readable font */
+  max-width: 800px;      /* limits how wide everything can get */
+  margin: 40px auto;     /* centers the container with space above/below */
+  padding: 24px;         /* adds space inside */
+  background-color: white; /* optional: white background inside gray page */
+  border-radius: 10px;   /* soft rounded edges */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* optional subtle shadow */
+  line-height: 1.6;
 }
+
 
 .affinity-diagram {
   display: flex;
