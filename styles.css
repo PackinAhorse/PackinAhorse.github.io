@@ -17,7 +17,8 @@ h2 {
 /* This rule styles the paragraph element */
 p {
   font-size: 16px; /* Sets the font size to 16 pixels */
-  line-height: 1.5; /* Adds spacing between lines of text */
+  line-height: 1.5;/* Adds spacing between lines of text */
+  text-align: center;
 }
 
 /* This rule targets the <div> element with the class "card" */
