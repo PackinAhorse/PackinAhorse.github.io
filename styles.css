@@ -58,3 +58,21 @@ p {
   border-bottom: 2px solid #666;
   padding-bottom: 5px;
 }
+/* Simple gallery styling */
+.project-gallery {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project-gallery img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid navy;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.05);
+}
+
