@@ -39,6 +39,9 @@ p {
   line-height: 1.6;
 }
 
+.assignment {
+  margin-bottom: 40px;
+}
 
 .affinity-diagram {
   display: flex;
