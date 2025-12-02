@@ -74,35 +74,16 @@ p {
 /* Simple project grid */
 /* AI helped */
 /* Force project card width (override other rules) */
+/* SIMPLE FIX */
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
 }
 
-/* make each card a fixed column so images don't blow up */
-.projects > div {
-  flex: 0 0 250px !important;   /* fixed column width */
-  max-width: 250px !important;
-  box-sizing: border-box;
-  text-align: center;
+.projects img {
+  width: 200px; /* <-- change this number to control image size */
+  height: auto;
 }
 
-/* force images inside the projects area to a sane size */
-.projects img.project-img {
-  width: 200px !important;   /* pick your preferred px width */
-  max-width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  margin: 10px auto !important;
-  border: 2px solid navy;
-  border-radius: 8px;
-  transition: transform 0.2s;
-}
-
-/* responsive fallback */
-@media (max-width: 600px) {
-  .projects > div { flex: 0 0 100% !important; max-width: 100% !important; }
-  .projects img.project-img { width: 90% !important; }
-}
