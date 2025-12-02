@@ -71,61 +71,23 @@ p {
   transform: scale(1.05);
 }
 
-/* Simple project grid */
-/* AI helped */
-/* Force project card width (override other rules) */
-/* SIMPLE FIX */
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
-.projects img {
-  width: 200px; /* <-- change this number to control image size */
-  height: auto;
-}
-
-/* Make each project a vertical column with centered title+thumb */
-.projects > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;                /* small space between title and image */
-  padding: 6px;
-}
-
-/* Smaller card titles so they don't take too much horizontal space */
-.projects > div h2 {
-  font-size: 18px;         /* tweak smaller/larger as you like */
-  margin: 0;
-  line-height: 1.1;
+.project {
   text-align: center;
+  width: 220px;
 }
 
-/* Uniform thumbnail box so all cards line up */
-.projects img {
-  width: 200px;            /* controls thumbnail width */
-  height: 150px;           /* fixed display height to equalize cards */
-  object-fit: contain;     /* show whole image without awkward cropping */
-  display: block;
+.project-img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
   border: 2px solid navy;
-  border-radius: 6px;
 }
 
-/* Slightly less vertical gap before the next section */
-.projects {
-  gap: 18px;               /* controls spacing between cards */
-  margin-bottom: 18px;     /* reduces the big empty space below the row */
-}
-
-/* Responsive tweak for small screens */
-@media (max-width: 600px) {
-  .projects img {
-    width: 160px;
-    height: 120px;
-  }
-  .projects > div h2 { font-size: 16px; }
-}
 
