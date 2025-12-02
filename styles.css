@@ -90,9 +90,11 @@ p {
 /* Images stay uniform size */
 /* AI helped */
 .project-img {
-  width: 100%;
+  display: block;
+  margin: 10px auto;
+  width: 200px;
   height: auto;
   border: 2px solid navy;
-  border-radius: 6px;
+  border-radius: 8px;
+  transition: transform 0.2s;
 }
-
