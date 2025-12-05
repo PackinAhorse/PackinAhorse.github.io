@@ -90,6 +90,11 @@ p {
   border: 2px solid navy;
 }
 
+.project-card {
+    text-align: center;
+    max-width: 300px;
+}
+
 .artifact-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
