@@ -30,6 +30,7 @@ p {
 }
 
 /* Centered white content container */
+/* AI helped */
 .container {
   max-width: 800px;
   margin: 40px auto;
@@ -54,6 +55,7 @@ p {
 }
 
 /* Individual affinity diagram category boxes */
+/* AI helped */
 .category {
   flex: 1 1 200px;
   background-color: #f3f3f3;
@@ -76,6 +78,7 @@ p {
 }
 
 /* Hover animation for project images */
+/* AI helped */
 .project-img:hover {
   transform: scale(1.05);
 }
@@ -111,6 +114,7 @@ p {
 }
 
 /* 3-column grid layout for artifacts */
+/* AI helped */
 .artifact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
