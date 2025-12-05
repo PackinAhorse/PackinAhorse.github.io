@@ -98,8 +98,8 @@ p {
 }
 
 .artifact-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   justify-items: center;
   width: 100%;
