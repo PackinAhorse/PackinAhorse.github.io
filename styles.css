@@ -72,10 +72,10 @@ p {
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .project {
@@ -84,22 +84,20 @@ p {
 }
 
 .project-img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
+  width: 100%;
   border: 2px solid navy;
+  border-radius: 8px;
+  transition: transform .15s;
 }
 
 .project-card {
-    text-align: center;
-    max-width: 300px;
+  max-width: 300px;
+  text-align: center;
 }
 
 .artifact-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 40px;
-    justify-items: center;
-    align-items: start;
-    padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-items: center;
 }
