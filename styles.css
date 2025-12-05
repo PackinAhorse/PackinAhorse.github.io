@@ -85,8 +85,10 @@ p {
 
 .project-img {
   width: 100%;
+  height: auto;
   border: 2px solid navy;
   border-radius: 8px;
+  display: block;
   transition: transform .15s;
 }
 
@@ -96,8 +98,10 @@ p {
 }
 
 .artifact-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 32px;
   justify-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
